@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -175,7 +175,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/753870-bitcoin.jpg");
+  background-image: url("../img/bg_lightning.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
