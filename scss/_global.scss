@@ -29,6 +29,10 @@ h6 {
   @include heading-font;
 }
 
+.bg-primary {
+  background-color: $primary !important;
+}
+
 section {
   padding: 100px 0;
   h2.section-heading {
