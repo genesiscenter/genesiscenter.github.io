@@ -124,6 +124,6 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
 // Gulp Build
 gulp.task("build", ['css:compile', 'css:minify', 'js:minify'], function() {
    return gulp.src(['css/agency.min.css', 'js/agency.min.js', 'index.html',
-                    'img/**', 'vendor/**', 'favicon.ico'], { base: './'})
+                    'img/**', 'vendor/**', 'favicon.ico', 'CNAME'], { base: './'})
        .pipe(gulp.dest('dist'));
 });
