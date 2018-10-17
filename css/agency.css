@@ -205,7 +205,6 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -226,7 +225,6 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 32px;
-    font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
