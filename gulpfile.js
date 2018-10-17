@@ -120,3 +120,19 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+// Gulp Build
+var build = require('gulp-build');
+
+var options = {
+  helpers: [{
+    name: 'addition',
+    fn: function(a, b) { return a + b; }
+  }]
+};
+
+gulp.task('build', function() {
+  gulp.src('pages/*.html')
+      .pipe(build({ title: 'Some page' }, options))
+      .pipe(gulp.dest('dist'))
+});
