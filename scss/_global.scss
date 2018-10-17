@@ -29,9 +29,15 @@ h6 {
   @include heading-font;
 }
 
-.bg-primary {
-  background-color: #ffb74c !important;
-}
+// hr {
+//   max-width: 50px;
+//   border-width: 3px;
+//   border-color: $primary;
+// }
+//
+// hr.light {
+//   border-color: $white;
+// }
 
 .bg-black {
   background-color: black !important;
