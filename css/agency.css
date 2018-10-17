@@ -36,7 +36,19 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #FF9900 !important;
+  background-color: #ffb74c !important;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.bg-black .section-heading, .bg-black h3, .bg-black h4 {
+  color: #FF9900 !important;
+}
+
+.bg-black p {
+  color: white !important;
 }
 
 section {
