@@ -224,6 +224,7 @@ header.masthead .intro-text .intro-heading {
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;

@@ -38,6 +38,7 @@ header.masthead {
         line-height: 40px;
         margin-bottom: 25px;
         @include serif-font;
+        font-weight: 500;
       }
       .intro-heading {
         font-size: 75px;
