@@ -124,6 +124,8 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
 // Gulp Build
 gulp.task("build", ['css:compile', 'css:minify', 'js:minify'], function() {
    return gulp.src(['css/agency.min.css', 'js/agency.min.js', 'index.html',
-                    'img/**', 'vendor/**', 'favicon.ico', 'CNAME'], { base: './'})
+                    'img/**', 'vendor/**', 'favicon.ico', 'apple-touch-icon.png'
+                    'favicon-16x16.png', 'favicon-32x32.png',
+                    'CNAME'], { base: './'})
        .pipe(gulp.dest('dist'));
 });
