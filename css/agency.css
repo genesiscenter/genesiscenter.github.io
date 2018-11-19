@@ -143,6 +143,12 @@ img::-moz-selection {
   color: #cc7a00;
 }
 
+#mainNav .navbar-brand .logo {
+  height: 1.4em;
+  padding-bottom: 4px;
+  padding-right: 1px;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;

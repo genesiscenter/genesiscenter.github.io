@@ -20,6 +20,12 @@
     &:hover {
       color: darken($primary, 10%);
     }
+
+    .logo {
+      height: 1.4em;
+      padding-bottom: 4px;
+      padding-right: 1px;
+    }
   }
   .navbar-nav {
     .nav-item {
